@@ -17,5 +17,14 @@
 2. Navigate to project directory
 
 ## Usage
-```bash
 python main.py
+
+## Tests
+To run the tests, use the following command:
+python -m unittest discover -s tests
+
+## Coverage
+To check the test coverage, use the following commands:
+coverage run --source=src -m unittest discover -s tests
+coverage report
+coverage html
