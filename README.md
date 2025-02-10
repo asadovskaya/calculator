@@ -1,44 +1,21 @@
-# Calculator
-
-This is a simple calculator application built with Python.
+# Python Calculator
 
 ## Features
-
-- Addition
-- Subtraction
-- Multiplication
-- Division
+- Command-line interface
+- Basic arithmetic operations
+  - Addition
+  - Subtraction
+  - Multiplication
+  - Division
+- Error handling for invalid inputs
 
 ## Requirements
-
-- Python 3.x
+- Python 3.7+
 
 ## Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/calculator.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd calculator
-    ```
+1. Clone the repository
+2. Navigate to project directory
 
 ## Usage
-
-Run the calculator:
 ```bash
-python calculator.py
-```
-
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-name`.
-3. Make your changes and commit them: `git commit -m 'Add some feature'`.
-4. Push to the branch: `git push origin feature-name`.
-5. Submit a pull request.
-
-## License
-
-This project is licensed under the MIT License.
+python main.py
