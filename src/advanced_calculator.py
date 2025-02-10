@@ -1,3 +1,5 @@
+import math
+
 class AdvancedCalculator:
     @staticmethod
     def power(x, y):
