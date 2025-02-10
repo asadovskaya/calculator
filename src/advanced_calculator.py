@@ -1,8 +1,19 @@
 import math
 
 class AdvancedCalculator:
+        
     @staticmethod
     def power(x, y):
+        """
+        Calculate the power of a number.
+
+        Args:
+            x (float): The base number.
+            y (float): The exponent.
+
+        Returns:
+            float: The result of raising x to the power of y.
+        """
         """Exponentiation"""
         return x ** y
     
